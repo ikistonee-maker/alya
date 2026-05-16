@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Judul Website -->
+    <title>Web Profile</title>
+
+    <style>
+
+        /* Mengatur seluruh body website */
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Bagian header/judul */
+        .header{
+            background-color: #d9d9d9;
+            text-align: center;
+            padding: 80px;
+        }
+
+        /* Tulisan WEB PROFILE */
+        .header h1{
+            margin: 0;
+            font-size: 50px;
+        }
+
+        /* Menu navigasi */
+        .navbar{
+            background-color: #bfbfbf;
+            overflow: hidden;
+            text-align: center;
+            padding:20px;
+        }
+
+        /* Link menu */
+        .navbar a{
+            display: inline-block;
+            padding: 20px 40px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.6s;
+            font-size: 25px;
+            border-radius: 50px;
+            box-shadow:black 1 1 1 1 ;
+            background-color: black;
+        }
+
+        /* Efek saat menu disentuh */
+        .navbar a:hover{
+            background-color: #8f8f8f;
+            color: white;
+           box-shadow: 12px 27px 23px -4px rgba(0, 0, 0, 0.77);
+border-radius: 61px;
+        }
+
+        /* Bagian isi/content */
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: hotpink;
+        }
+
+        /* Foto profile */
+        .foto img{
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            border: 10px solid black;
+            transition: 0.9s;
+            object-fit: cover;
+        
+        }
+        
+        .foto img:hover {
+            
+            box-shadow: -1px 54px 30px 27px rgba(0, 255, 255, 0.77);
+        }
+
+        /* Bagian identitas */
+        .identitas{
+            width: 45%;
+        }
+
+        /* Judul identitas */
+        .identitas h2{
+            font-size: 40px;
+        }
+
+        /* Isi identitas */
+        .identitas p{
+            font-size: 30px;
+            line-height: 2;
+        }
+
+        /* Bagian footer */
+        .footer{
+            background-color: #bfbfbf;
+            text-align: center;
+            padding: 30px;
+            font-size: 30px;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>WEB PROFILE</h1>
+    </div>
+
+    <!-- Menu Navigasi -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Isi Website -->
+    <div class="content">
+
+        <!-- Foto Profil -->
+        <div class="foto">
+            <img src="/IMG-20260408-WA0009.jpg" alt="Foto Profil">
+        </div>
+
+        <!-- Data Identitas -->
+        <div class="identitas">
+
+            <!-- Judul -->
+            <h2>IDENTITAS DIRI</h2>
+
+            <!-- Data -->
+            <p>Nama :Alya Denika Az-Zahra</p>
+            <p>Tempat, Tanggal Lahir : Bekasi,19-11-2010</p>
+            <p>Alamat : Arjuna</p>
+            <p>Email : Alyaepep@gmail.com</p>
+            <p>Nomor Telepon :08000000</p>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Web Profile @alyastone 2026
+    </div>
+
+</body>
+</html>
